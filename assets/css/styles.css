@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(10, 95, 145);
+    text-align: center;
+    color: #FFF;
+    line-height: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.itens-receita{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+}
+
+.itens-receita .item{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.itens-receita .item .image{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+
+.itens-receita .item .image img{
+    width: 100%;
+}
+
+.itens-receita .item .texto{
+    width: 35%;
+    height: auto;
+    float: right;
+    text-align: justify;
+}
+
+.paginacao{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.paginacao ul.pagination{
+    margin: 50px 0 0 500px;
+}

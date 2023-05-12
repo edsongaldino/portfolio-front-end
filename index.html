@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação para internet em front-end</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script src="assets/js/paginar.js"></script>
+</head>
+<body>
+    <div class="header">Página de Receitas</div>
+    <div class="container">
+
+        <div class="itens-receita">
+
+            <div class="item" id="pag1" style="display: block;">
+                <div class="image"><img src="assets/images/receitas/arroz-com-calabresa-na-pressao-facil-730x477.jpg" alt=""></div>
+                <div class="texto">
+                    <h2>Arroz com Calabresa</h2>
+                    <p>O arroz com calabresa na pressão fácil é superprático, experimente servir com uma salada verde ou com batata frita, fica uma delícia. Adicione azeitonas ou picles para um sabor mais intenso.</p>
+                </div>
+            </div>
+
+            <div class="item" id="pag2" style="display: none;">
+                <div class="image"><img src="assets/images/receitas/salada-de-batata-6-730x480.jpeg" alt=""></div>
+                <div class="texto">
+                    <h2>Salada de Batata</h2>
+                    <p>A salada de batata é um dos acompanhamentos mais populares em vários países. É uma salada composta por batatas cozidas, acompanhadas por diversos ingredientes. Possui denominações diferentes, dependendo da zona onde se consuma ou confeccione. Por exemplo, na região do Ruhr, denomina-se Erpelschlut.</p>
+                </div>
+            </div>
+
+            <div class="item" id="pag3" style="display: none;">
+                <div class="image"><img src="assets/images/receitas/salada-caesar-1-730x480.jpg" alt=""></div>
+                <div class="texto">
+                    <h2>Salada Caesar</h2>
+                    <p>Caesar salad, salada Caesar ou salada César é uma salada preparada com alface-romana e molho Caesar. Os temperos usados mais habitualmente para compor este molho são azeite de oliva, suco de limão, anchovas, queijo parmesão, molho inglês, sal, açúcar e pimenta-preta.</p>
+                </div>
+            </div>
+
+            <nav aria-label="Page navigation example" class="paginacao">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#" onclick="Page1()">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="Page2()">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#" onclick="Page3()">3</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</body>
+</html>
